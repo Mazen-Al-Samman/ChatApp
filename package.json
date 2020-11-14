@@ -1,0 +1,27 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Simple chat app Using node js .",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mazen-Al-Samman/ChatApp.git"
+  },
+  "author": "MHD Mazen AL Samman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mazen-Al-Samman/ChatApp/issues"
+  },
+  "homepage": "https://github.com/Mazen-Al-Samman/ChatApp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

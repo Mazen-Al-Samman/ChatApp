@@ -1,0 +1,43 @@
+.msg {
+    height : 500px ;
+    background-color : lightskyblue ;
+    border-radius : 20px;
+    overflow:auto;
+}
+input[type='text'] {
+    margin-top : 3% ;
+    width : 60% ;
+    outline : none ;
+    border : 2px solid lightslategray ;
+    border-radius : 15px ;
+}
+input[type='submit'] {
+    border : 2px solid lightslategray ;
+    border-radius : 15px ;
+    width : 20% ;
+}
+.sender {
+    background-color : green ;
+    color : white ;
+    text-align: center;
+    width : 70% ;
+    float: left;
+    font-size: 25px;
+    border-radius: 30px;
+    margin : 25px ;
+    margin-bottom: 0px !important;
+}
+.reciever {
+    background-color : blue ;
+    color : white ;
+    text-align: center;
+    width : 70% ;
+    float: right;
+    font-size: 25px;
+    border-radius: 30px;
+    margin : 25px ;
+    margin-bottom: 0px !important;
+}
+.clear {
+    clear : both ;
+}

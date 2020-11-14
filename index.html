@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./app.css">
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="./script.js"></script>
+    <title>Chat App</title>
+</head>
+
+<body>
+
+    <div class="container mt-3">
+        <div class="row text-center">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h1 class="text-center">Chat App</h1>
+
+                <!-- <div id="msgContainer"></div> -->
+
+                <div id="msgContainer" class="msg mt-3"></div>
+                <form id="msgForm">
+                    <input type="text" class="text-center" id="msg-text" />
+                    <input type="submit" value="SEND" id="submit-button" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
